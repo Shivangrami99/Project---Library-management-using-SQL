@@ -1,8 +1,8 @@
-- # 📚 Library Management System
+ # 📚 Library Management System
 
 - This project is a Library Management System built using SQL, designed to manage books, members, employees, and transactions like issuing and returning books.It simulates a real-world library database and demonstrates how relational databases handle structured data efficiently.
 
--# 🧠 Problem Statement
+# 🧠 Problem Statement
 
 - Libraries need a structured system to manage:
 
@@ -13,7 +13,7 @@
 - This project solves that by designing a relational database and performing analytical queries.
 
 
--# Database Design
+# Database Design
 
 - The system is built using multiple related tables:
 
@@ -24,14 +24,14 @@
 - Issued_Status – Tracks issued books
 - Return_Status – Tracks returned books
 
-- # Tools & Technologies
+ # Tools & Technologies
 
 SQL (PostgreSQL)
 Relational Database Design
 Joins, Aggregations, Subqueries
 CTAS (Create Table As Select)
 
--# 🔍 Key Features & Tasks
+# 🔍 Key Features & Tasks
 
 > Data Manipulation
 Insert, update, and delete records
@@ -55,25 +55,14 @@ Employees handling most transactions
 
 All tasks are implemented using structured SQL queries
 
-- # Project Structure : 
+
+library-management-sql/
 │
-|-- 📂 data/
-│   |-- books.csv
-│   |-- members.csv
-│   |-- employees.csv
-│   |-- branch.csv
-│   |-- issued_status.csv
-│   |-- return_status.csv
-│
-|-- 📂 sql/
-│   |-- schema.sql              # Table creation + constraints
-│   |-- insert_data.sql         # Data insertion queries
-│   |-- update_queries.sql      # Updates & modifications
-│   |-- analysis_queries.sql    # All business queries / tasks
-|   |-- tasks.sql               # Real-world business problem solving 
-│
-|-- 📂 docs/
-│   |-- ERD.png / ERD.pgerd    # Database design diagram
+├── 📄 lib_management.sql       # Step 1 — Create all tables & foreign keys
+├── 📄 insert_queries.sql       # Step 2 — Insert core data (books, members, employees)
+├── 📄 insert_queries2.sql      # Step 3 — Extra inserts + ALTER TABLE changes
+├── 📄 TASK.sql                 # Step 4 — 16 business problem queries
+└── 📄 README.md                # Project documentation
 |
 | 
 Author : Shivang Rami 😊
