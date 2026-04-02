@@ -56,6 +56,7 @@ Employees handling most transactions
 All tasks are implemented using structured SQL queries
 
 
+```
 library-management-sql/
 │
 ├── 📄 lib_management.sql       # Step 1 — Create all tables & foreign keys
@@ -63,6 +64,6 @@ library-management-sql/
 ├── 📄 insert_queries2.sql      # Step 3 — Extra inserts + ALTER TABLE changes
 ├── 📄 TASK.sql                 # Step 4 — 16 business problem queries
 └── 📄 README.md                # Project documentation
-|
-| 
-Author : Shivang Rami 😊
+```
+
+- Author : Shivang Rami 😊
